@@ -1,0 +1,112 @@
+@keyframes flicker {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h1 {
+    margin-top: 135px;
+    font-size: xxx-large;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    color: whitesmoke;
+    animation: flicker ease 3s;
+}
+h2 {
+    margin-top: 25px;
+    font-size: x-large;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    color: whitesmoke;
+}
+.intro{
+    margin-top: 25px;
+    align-items: center;
+    text-align: center;  
+    font-size: x-large;
+    color: whitesmoke;
+}
+.Line{
+    align-items: center;
+    text-align: center;  
+    font-size: large;
+    color: whitesmoke;
+}
+ul {
+    list-style-type: disc;
+    display: inline-block; 
+    text-align: left; 
+    margin-top: 0; 
+    padding-left: 0; 
+}
+
+span{
+    text-shadow: 0 0 5px #ffffff;
+}
+.container {
+    text-align: center; 
+    padding-bottom: 10px;
+    width: 750px;
+    margin: 0 auto; 
+
+}
+
+li{
+    margin: calc(1vw * 1);
+    text-align: left;
+    color: whitesmoke;
+}
+.btn {
+    background-color: rgba(0, 0, 0, 0.218);
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    display: block; 
+    
+}
+button {
+    color: whitesmoke;
+    font-size: medium;
+    margin: 2px;
+
+}
+a{
+    font-size: large;
+}
+.btn:hover{
+    background-color: gray;
+}
+.btn:active{
+    color: black;
+}
+@media (max-width: 762px){
+    .container{
+        width: 400px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .Line,.intro{
+        font-size: large;
+    }
+    h2{
+        font-size: larger;
+    }
+    .btn{
+        width: 90px;
+        height: 35px;
+    }
+    a{
+        display: inline-block;
+        overflow: hidden;
+        font-size: small;
+    }
+}

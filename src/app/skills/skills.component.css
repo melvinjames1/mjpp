@@ -1,0 +1,90 @@
+
+h1 {
+    font-size: 5em;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); 
+}
+h2{
+    font-size: 3em;
+    font-weight: 700;
+
+}
+p{
+    margin-top: 140px;
+    align-items: center;
+    text-align: center;
+    color:gray;
+    font-style: italic;
+}
+
+.holder {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.container1,
+.container2,
+.container3,
+.container4,
+.container5 {
+    flex: 1; 
+    margin: 10px; 
+    padding: 20px;
+    border-radius: 10%;
+    width: 850px;
+    height: 300px;
+    background-color: #27352d9c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add drop shadow */
+    filter: blur(5px); 
+}
+h2{
+    color: whitesmoke;
+    font-size: larger;
+    text-align: center;
+}
+
+.ic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+}
+.container1:hover,
+.container2:hover,
+.container3:hover,
+.container4:hover,
+.container5:hover{
+    transition: ease-in .3s;
+    filter: blur(0); 
+    box-shadow: 0 0 5px #ffffff;
+    background-color: rgba(255, 255, 255, 0.148);
+    padding: 2em;
+}
+
+
+@media screen and (max-width: 768px) {
+    .holder {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    .container1,
+    .container2,
+    .container3,
+    .container4,
+    .container5 {
+        width: 200px; 
+        margin: 10px auto; 
+        filter: blur(0); 
+    }
+.container1:hover,
+.container2:hover,
+.container3:hover,
+.container4:hover,
+.container5:hover{
+padding: 1em;
+}
+}
