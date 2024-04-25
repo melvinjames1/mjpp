@@ -37,7 +37,7 @@ p{
     width: 850px;
     height: 300px;
     background-color: #27352d9c;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add drop shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     filter: blur(5px); 
 }
 h2{

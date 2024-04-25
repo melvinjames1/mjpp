@@ -10,5 +10,9 @@ import { RouterLink } from '@angular/router';
   styleUrl: './about.component.css'
 })
 export class AboutComponent {
+  constructor() { }
 
+  downloadResume() {
+    window.location.href = 'assets/resume.pdf'; // Path to your resume PDF file
+  }
 }

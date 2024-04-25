@@ -9,9 +9,13 @@
         opacity: 1;
     }
 }
-
+.container{
+    background-color: #27352d9c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 15px;
+}
 h1 {
-    margin-top: 135px;
+    margin-top: 15vh;
     font-size: xxx-large;
     align-items: center;
     text-align: center;
@@ -50,6 +54,8 @@ ul {
 
 span{
     text-shadow: 0 0 5px #ffffff;
+    font-weight: 800;
+    font-style: italic;
 }
 .container {
     text-align: center; 
@@ -84,9 +90,16 @@ a{
 }
 .btn:hover{
     background-color: gray;
+ 
 }
 .btn:active{
     color: black;
+}
+.bc{
+    display: flex;
+    margin-top: 0.5rem;
+    flex-wrap: wrap; 
+    justify-content: center; 
 }
 @media (max-width: 762px){
     .container{

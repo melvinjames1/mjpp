@@ -10,3 +10,8 @@ input{
 textarea{
     background-color: whitesmoke;
 }
+@media screen and (max-width: 468px){
+    input::placeholder,textarea::placeholder{
+        font-size: x-small;
+    }
+}

@@ -15,13 +15,10 @@
     
     display: flex;
   }
-  .card{
-    position: relative;
-    margin-left: 20% ;
-    border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.602);
-    color: whitesmoke;
-  }
+.card{
+  background-color: rgba(0, 0, 0, 0.602);
+  color: whitesmoke;
+}
   img{
     border-radius: 5%;
     padding: 15px;
@@ -47,13 +44,33 @@ i{
     font-size: small;
     margin: .5em;
   }
+  
   .ls:hover,.sc:hover{
     background-color: gray;
   }
+  .carousel-controls {
+    display: flex;
+    justify-content: center; /* Horizontally center buttons */
+    align-items: flex-start; /* Align items at the start (top) */
+    height: 100%; /* Ensure the container occupies the full height */
+    margin-bottom: 25vh; /* Adjust the top margin as needed */
+}
+
+
   @media screen and (max-width: 768px){
-    .card{
-        margin-left: 22% ;
-
-      } 
-
-  }
+        .card{
+           width: 18rem;
+          }
+          .card {
+           
+            margin: 0 auto; /* This will horizontally center the div */
+            border-radius: 20px;
+            width: 70%; /* Adjust width as needed */
+        }
+        .ls,.sc{
+          font-size: xx-small;
+        }
+        .carousel-controls{
+          margin-bottom: 5vh;
+        }
+}
