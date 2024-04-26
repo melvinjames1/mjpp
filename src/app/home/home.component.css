@@ -1,3 +1,13 @@
+@keyframes flicker {
+  0%{
+    box-shadow: 0 0 35em #ffffff;
+  }
+  50%{
+    box-shadow: none;
+  }
+  100%{
+    box-shadow: 0 0 35em #ffffff;
+  }
 section {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,7 +17,10 @@ section {
     align-items: center;
     height: 100vh;
   }
-  
+   h1:hover{
+    transition: ease-in .8s;
+    text-shadow: 0 0 10px #ffffff;
+  } 
   .container {
     text-align: left;
     margin-left: 20px;
@@ -53,6 +66,9 @@ button:hover{
     top: 50%; 
     right: 20px;
     transform: translateY(-50%);
+    transition: ease-in-out .8s;
+    box-shadow: 0 0 35em #ffffff; 
+    animation: flicker ease 3s;
   }
   
   img{
