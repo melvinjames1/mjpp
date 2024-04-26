@@ -8,6 +8,7 @@
   100%{
     box-shadow: 0 0 35em #ffffff;
   }
+}
 section {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -17,20 +18,22 @@ section {
     align-items: center;
     height: 100vh;
   }
-   h1:hover{
-    transition: ease-in .8s;
-    text-shadow: 0 0 10px #ffffff;
-  } 
+  
   .container {
     text-align: left;
     margin-left: 20px;
   }
   h1 {
+    margin-top: 10vh;
     font-size: 4em; 
     margin-bottom: 20px;
     color: whitesmoke;
     font-weight: 1000;
     font-style: italic;
+  }
+  h1:hover{
+    transition: ease-in .8s;
+    text-shadow: 0 0 10px #ffffff;
   }
   
   p {
@@ -50,6 +53,7 @@ section {
     margin-top: 30px;
   }
 button:hover{
+  transition: ease-in .3s;
     background-color: gray;
 }
   a{
@@ -70,13 +74,12 @@ button:hover{
     box-shadow: 0 0 35em #ffffff; 
     animation: flicker ease 3s;
   }
-  
   img{
     height: 450px;
     width: 450px;
     border-radius: 100%;
   }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1100px) {
     section {
         display: flex; 
         flex-direction: column; 
@@ -90,20 +93,20 @@ button:hover{
     }
     
     h1 {
-        margin-top: 40px;
+        margin-top: 10px;
         font-size: 2em;
     }
     
     p {
+        
         width: 90%; 
         font-size: 1em;
+        margin: 0 auto;
         text-align: center;
     }
     .circle {
        display: none;
     }
-    
-    
     
    .b2,.b3 {
         margin-left: 20px;
