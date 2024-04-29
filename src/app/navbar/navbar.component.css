@@ -31,6 +31,7 @@ img{
 .Name{
     margin-left: 10px;
     font-size: larger;
+    padding: 5px;
     color: whitesmoke;
     text-align: center;
     vertical-align: middle;
