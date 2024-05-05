@@ -13,10 +13,10 @@
 button{
     margin-top: 25px;
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 8px;
     padding-left: 8px;
     padding-right: 8px;
-    background-color: rgba(0, 181, 0, 0.269);
+    background-color: #22C55D;
 }
 svg{
     color: whitesmoke;
@@ -25,7 +25,7 @@ svg{
     color: whitesmoke;
 }
 button:hover{
-    background-color: gray;
+    background-color: #17A34A;
 }
 svg:hover{
     box-shadow: 0 0 5px #ffffff;
