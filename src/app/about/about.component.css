@@ -103,7 +103,7 @@ a{
 }
 @media (max-width: 762px){
     .container{
-        width: 400px;
+        width: 90vw;
         padding-left: 5%;
         padding-right: 5%;
     }
@@ -121,5 +121,10 @@ a{
         display: inline-block;
         overflow: hidden;
         font-size: small;
+    }
+}
+@media (max-width: 438px){
+    .Line{
+        display: none;
     }
 }
